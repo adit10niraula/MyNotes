@@ -1,0 +1,85 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    color:white;
+    background-color:black;
+}
+
+.component{
+
+    border:1px solid black;
+    max-width: 800px;
+    height: 100vh;
+    margin: 20px auto;
+}
+
+.header{
+    text-align: center;
+    padding:20px;
+    font-size:20px;
+   
+    color:white;
+    background-color: black;
+    
+}
+
+
+.head{
+    display: flex;
+    padding:20px;
+    font-size:20px;
+    
+}
+.pnote{
+    padding-left: 20px;
+}
+
+.list{
+    
+    padding:15px;
+    margin:10px;
+    font-size:20px;
+    
+    
+}
+
+.list Link{
+    text-decoration: none;
+
+}
+
+.shead{
+    display: flex;
+    justify-content: space-between;
+}
+.heads{
+    display: flex;
+    justify-content: space-evenly;
+    font-size:20px;
+
+}
+
+.send{
+    padding-right:20px;
+}
+
+.snotes{
+    padding-top:50px;   
+}
+
+
+textarea{
+    width: 80%;
+    height:70vh;
+}
+
+.tophead{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tophead .create{
+    font-size:30px;
+}
